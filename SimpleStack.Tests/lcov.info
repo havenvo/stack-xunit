@@ -1,0 +1,53 @@
+SF:E:\workspace\training\enc\stack-xunit\SimpleStack\SimpleStack.cs
+FN:10,System.Void SimpleStack.Stack::Clear()
+FNDA:1,System.Void SimpleStack.Stack::Clear()
+DA:11,1
+DA:12,1
+DA:13,1
+FN:14,System.Boolean SimpleStack.Stack::Contains(System.String)
+FNDA:1,System.Boolean SimpleStack.Stack::Contains(System.String)
+DA:15,1
+DA:16,1
+DA:17,1
+FN:18,System.Boolean SimpleStack.Stack::IsEmpty()
+FNDA:6,System.Boolean SimpleStack.Stack::IsEmpty()
+DA:19,6
+DA:20,6
+DA:21,6
+FN:22,System.String SimpleStack.Stack::Peek()
+FNDA:2,System.String SimpleStack.Stack::Peek()
+DA:23,2
+DA:24,2
+DA:25,0
+DA:27,2
+DA:28,2
+BRDA:24,9,0,0
+BRDA:24,9,1,2
+FN:29,System.String SimpleStack.Stack::Pop()
+FNDA:2,System.String SimpleStack.Stack::Pop()
+DA:30,2
+DA:31,3
+DA:32,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+BRDA:31,9,0,1
+BRDA:31,9,1,1
+FN:38,System.Void SimpleStack.Stack::Push(System.String)
+FNDA:4,System.Void SimpleStack.Stack::Push(System.String)
+DA:39,4
+DA:40,4
+DA:41,4
+FN:6,System.Void SimpleStack.Stack::.ctor()
+FNDA:8,System.Void SimpleStack.Stack::.ctor()
+DA:7,8
+DA:8,4
+DA:9,4
+LF:27
+LH:26
+BRF:4
+BRH:3
+FNF:7
+FNH:7
+end_of_record

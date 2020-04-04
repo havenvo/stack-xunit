@@ -1,0 +1,8 @@
+# Run test to get coverage to see by Coverage Gutters VSCode plugin
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info
+
+# Run test to get opencover report as input for ReportGenerator
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+
+# ReportGenerator
+dotnet ReportGenerator_4.0.15/ReportGenerator.dll "-reports:coverage.opencover.xml" "-targetdir:report"
